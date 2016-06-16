@@ -1,6 +1,6 @@
-moco.RLS.file.convert <- function( dir=".", out.dir=".", study="moco-inf-2pat-lamrad" )
+moco.RLS.file.convert <- function( dir=".", out.dir="~/csv-by-session", study="moco-inf-2pat-lamrad" )
 
-# mofo.RLS.file.convert( dir="~/", study="moco-inf-2pat-lamrad" )
+# moco.RLS.file.convert( dir="~/", study="moco-inf-2pat-lamrad" )
 #	Opens PowerDiva 3.4 RLS.txt data file, drops unnecessary variables,
 #		creates new factors based on iCond numbers and study, 
 #		then exports .csv file in the same directory. 
@@ -43,7 +43,7 @@ moco.RLS.file.convert <- function( dir=".", out.dir=".", study="moco-inf-2pat-la
 fname.rls = file.path( dir, "RLS.txt")
 fname.ssn = file.path( dir, "SsnHeader.txt")
 fname.cndParams = file.path( dir, "CndParams_MOCO_v7.txt")
-# fname.out = file.path( dir, "RLS-merged")
+#fname.out = file.path( dir, "RLS-merged")
 
 # nCond = 4
 # nHarm = 12
@@ -110,15 +110,15 @@ cat(msg, "\n", sep="")
 if( study == 'moco-inf-2pat-lamrad') 
 {
   #	iCond	Pattern	Speed
-  #	1		lam		1.2deg/s
-  #	2		lam		1.2deg/s
-  #	3		rad	  6.0deg/s
-  #	4		rad		6.0deg/s
+  #	1		trans		2 deg/s
+  #	2		trans		8 deg/s
+  #	3		rad	    2 deg/s
+  #	4		rad		  8 deg/s
 
-  #!!!!!!Correct the two below lines !!!!!
-  #Pattern = factor( rep( c(1,2,3), each=(3*nHarm*NCh)) , labels=c("rad", "rot", "trans") )
   
-  #Speed = factor( rep( rep( c(1, 2), each=(nHarm*NCh) ), times=s), labels=c("1.2deg/s", "6.0deg/s", ), ordered=TRUE)
+  Pattern = factor( rep( c(1,2), each=(2*nHarm*NCh)) , labels=c("trans", "radial") )
+  
+  Speed = factor( rep( rep( c(1, 2), each=(nHarm*NCh) ), times=2), labels=c("2 deg/s", "8 deg/s"), ordered=TRUE)
 }
 
 # How to create new factors from iCond
@@ -190,8 +190,8 @@ ChanGroup = factor( ChanGroup )
 ####	Create new data frame with core variables
 cat("Creating new data frame.\n")
 
-# Copy rls.trimmed.to output frame, but drop unneeded variables
-moco.df = rls.trimmed.df[, !names(rls.trimmed.df) %in% drops.rls ]
+# Copy rls.data.df to output frame, but drop unneeded variables
+moco.df = rls.data.df[, !names(rls.data.df) %in% drops.rls ]
 
 # Add newly defined variables
 moco.df$Pattern = Pattern
@@ -200,6 +200,8 @@ moco.df$Channel = Channel
 moco.df$ChanGroup = ChanGroup
 moco.df$Hz = Hz
 moco.df$Study = rep( study, nDataPts)
+
+# moco.df$iSessID = lis
 
 # from SsnHeader and CndParam files
 moco.df$DaqRateHz = rep( ssn.df$DaqRateHz, nDataPts )
@@ -213,7 +215,7 @@ moco.df$Density = cndParams.df$Density[ moco.df$iCond ]
 moco.df$ModType = cndParams.df$ModType[ moco.df$iCond ]
 moco.df$AminPerUpdate = cndParams.df$ModInfo[ moco.df$iCond ]
 
-moco.df$Operator = rep( ssn.df$Operator, nDataPts )
+#moco.df$Operator = rep( ssn.df$Operator, nDataPts )
 moco.df$Sex = rep( ssn.df$Sex, nDataPts )
 #moco.df$BirthDate = rep( ssn.df$BirthDate, nDataPts )
 #moco.df$DueDate = rep( ssn.df$DueDate, nDataPts )
@@ -247,7 +249,7 @@ save( moco.df, file=paste( fname.out,".Rdata", sep="") )
 
 msg = sprintf( "Exporting CSV data to %s.", paste(fname.out, ".csv", sep="") )
 cat("\n", msg, sep="" )
-write.table( moco.df, file=paste(fname.out, ".csv", sep=""), sep=",")
+write.table( moco.df, file=paste(fname.out, ".csv", sep=""), sep=",", row.names=FALSE)
 
 return=moco.df
 
