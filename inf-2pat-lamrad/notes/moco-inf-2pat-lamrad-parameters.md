@@ -13,15 +13,16 @@ Table below values for F1-F2
 | 3 |5-5 |2-2|0-180   |10-10 | dir-radial |
 | 4 |20-20 |8-8|0-180   |10-10 | dir-radial |
 
-F1 = Fundamental Frequency
-F2 = Dot Update Rate
+F1 = Fundamental Frequency  
+F2 = Dot Update Rate  
 View Distance: 60.31  
 Mean Lum: 40.73  
 Contrast %: 90.00  
 Pix size (Amin): 7.00  
-Duration: 8.3
-Field Diameter = 24 deg
-Coherence = 100%
+Duration: 8.3  
+Field Diameter = 24 deg  
+Coherence = 100% 
+cd/m^2 =   
 
 ### Calculate deg/s from amin
 
