@@ -2,7 +2,7 @@
 
 This is the project notes file for the MOCO infant 2 pattern laminar radial project.
 
-Databrary volume: [Infant's Brain Responses to Laminar and Radial Motion Coherence Profiles](https://nyu.databrary.org/volume/146)
+Databrary volume: [Infant's Brain Responses to Laminar and Radial Motion Coherence Profiles](https://nyu.databrary.org/volume/146)  
 Box location for files: [moco-inf-2pat-lamrad](https://psu.app.box.com/files/0/f/5376831405/moco-inf-2pat-lamrad)  
 
 ## 2016-08-05-10:46  
