@@ -21,7 +21,7 @@ Contrast %: 90.00
 Pix size (Amin): 7.00  
 Duration: 8.3  
 Field Diameter = 24 deg  
-Coherence = 100% 
+Coherence = 100%  
 cd/m^2 =   
 
 ### Calculate deg/s from amin
