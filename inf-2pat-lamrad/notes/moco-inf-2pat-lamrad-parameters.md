@@ -23,6 +23,11 @@ Duration: 8.3
 Field Diameter = 24 deg  
 Coherence = 100%  
 cd/m^2 =   
+Luminance: .5 - 81.2 on 4/23/15  
+number steps: 10  
+number bins: 10  
+modulation: mot_onoff_sqb  
+
 
 ### Calculate deg/s from amin
 
