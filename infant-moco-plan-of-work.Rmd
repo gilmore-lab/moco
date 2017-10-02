@@ -1,0 +1,63 @@
+---
+title: "plan-of-work"
+author: "A. Pandos & R. Gilmore"
+date: "`r Sys.time()`"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Purpose
+
+1. Plan work for Infant MOCO poster for [ICIS 2018](https://infantstudies.org/congress-2018/) (due 12/1/2017).
+1. Plan work for Infant MOCO manuscript for submission late 2017.
+
+## Gathering
+
+- Get data from Box
+
+## Cleaning & export
+
+- Examine data
+- Remove identifiers
+- Save de-identified data
+- Upload de-identified data to GitHub
+
+## Visualization
+
+- Individual-level
+    - T2Circ (like Gilmore, Thomas & Fesi, 2016; Figure 3)
+    - Map of all electrodes (like Gilmore, Thomas & Fesi, 2016; Figure 4) for 1F1, 2F1, 3F1, 4F1
+    - Plots of channels that meet threshold like (Figures 5 & 6)
+- Group-level
+    - T2Circ (like Gilmore, Thomas & Fesi, 2016; Figure 3)
+    - Map of all electrodes (like Gilmore, Thomas & Fesi, 2016; Figure 4) for 1F1, 2F1, 3F1, 4F1
+    - Plots of channels that meet threshold like (Figures 5 & 6)
+
+## Analysis
+
+- Hypothesis: Infants should show larger amplitude EEG to fast motion.
+
+Sample [video](https://nyu.databrary.org/slot/9825/-/asset/11635/download?inline=true) of linear motion, 2 deg/s
+    
+<!-- <video width="320" height="240" controls> -->
+<!-- <source src="https://nyu.databrary.org/slot/9825/-/asset/11635/download?inline=true" type="video/mp4"> -->
+<!-- Your browser does not support the video tag. -->
+<!-- </video> -->
+
+Sample [video](https://nyu.databrary.org/slot/9825/-/asset/11641/download?inline=true) of radial motion, 2 deg/s
+    
+<!-- <video width="320" height="240" controls> -->
+<!-- <source src="https://nyu.databrary.org/slot/9825/-/asset/11641/download?inline=true" type="video/mp4"> -->
+<!-- Your browser does not support the video tag. -->
+<!-- </video> -->
+
+- Hypothesis: Infants should show larger amplitude EEG to linear motion.
+
+## Write-up
+
+- Sample displays are on Databrary: <https://nyu.databrary.org/volume/75>
+- Draft methods section can be found [here](moco-inf-2pat-lamrad-manuscript2016.md).
+
