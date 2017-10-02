@@ -1,7 +1,7 @@
 plan-of-work
 ================
 A. Pandos & R. Gilmore
-2017-10-02 15:21:55
+2017-10-02 15:55:27
 
 Purpose
 -------
@@ -18,17 +18,26 @@ Cleaning & export
 -----------------
 
 -   Examine data
+    -   Data under projects/optic flow/optic flow eeg/moco/moco eeg lamrad infant &gt; analysis &gt; data &gt; raw sessions
+    -   no data under csv or csv-thresh 200
+-   Clean and export from the `inf_2pat_lamrad_YYYMMDD` files.
+    -   These are "buried" or nested under a subject-id folder.
+-   Combine subject-ids with metadata from [Databrary](https://databrary.org/volume/146).
 -   Remove identifiers
 -   Save de-identified data
 -   Upload de-identified data to GitHub
+    -   Make sure data are in format similar to [GTA 2016 on GitHub](https://github.com/gilmore-lab/gilmore-thomas-fesi-2015), see especially the README [here](https://github.com/gilmore-lab/gilmore-thomas-fesi-2015/tree/master/csv)
 
 Visualization
 -------------
 
+-   Summary of participant characteristics
+    -   Sex, age range, etc.
 -   Individual-level
     -   T2Circ (like Gilmore, Thomas & Fesi, 2016; Figure 3)
     -   Map of all electrodes (like Gilmore, Thomas & Fesi, 2016; Figure 4) for 1F1, 2F1, 3F1, 4F1
     -   Plots of channels that meet threshold like (Figures 5 & 6)
+    -   N.B. -- The GTF 2016 paper had 3 speeds and 3 patterns, so our code will have to be changed for 2 speeds and 2 patterns.
 -   Group-level
     -   T2Circ (like Gilmore, Thomas & Fesi, 2016; Figure 3)
     -   Map of all electrodes (like Gilmore, Thomas & Fesi, 2016; Figure 4) for 1F1, 2F1, 3F1, 4F1
@@ -56,5 +65,14 @@ Sample [video](https://nyu.databrary.org/slot/9825/-/asset/11641/download?inline
 Write-up
 --------
 
+-   Confirm GTA 2016 references are in PaperPile
+    -   Enter missing into PaperPile
+    -   Copy refs to [infant-moco-refs.md](infant-moco-refs.md)
 -   Sample displays are on Databrary: <https://nyu.databrary.org/volume/75>
 -   Draft methods section can be found [here](moco-inf-2pat-lamrad-manuscript2016.md).
+
+<!-- | Column 1 | Column 2 | -->
+<!-- |----------|----------| -->
+<!-- | value 1  | value 2  | -->
+<!-- | value 3  | "hey"    | -->
+<!-- || not blank          | -->
