@@ -1,13 +1,18 @@
 plan-of-work
 ================
 A. Pandos & R. Gilmore
-2017-10-02 15:55:27
+2017-10-03 09:03:02
 
 Purpose
 -------
 
 1.  Plan work for Infant MOCO poster for [ICIS 2018](https://infantstudies.org/congress-2018/) (due 12/1/2017).
-2.  Plan work for Infant MOCO manuscript for submission late 2017.
+
+-   Poster Submission
+    -   Include an abstract (max 3500 characters – 500 words)
+    -   Prepare an abstract title (max 130 character limit)
+
+1.  Plan work for Infant MOCO manuscript for submission late 2017.
 
 Gathering
 ---------
@@ -18,7 +23,7 @@ Cleaning & export
 -----------------
 
 -   Examine data
-    -   Data under projects/optic flow/optic flow eeg/moco/moco eeg lamrad infant &gt; analysis &gt; data &gt; raw sessions
+    -   Data under projects &gt; optic flow &gt; optic flow eeg &gt; moco &gt; moco eeg lamrad infant &gt; analysis &gt; data &gt; raw sessions
     -   no data under csv or csv-thresh 200
 -   Clean and export from the `inf_2pat_lamrad_YYYMMDD` files.
     -   These are "buried" or nested under a subject-id folder.
