@@ -1,7 +1,7 @@
 plan-of-work
 ================
 A. Pandos & R. Gilmore
-2017-10-03 09:03:02
+2017-10-03 14:25:36
 
 Purpose
 -------
@@ -53,18 +53,10 @@ Analysis
 
 -   Hypothesis: Infants should show larger amplitude EEG to fast motion.
 
-Sample [video](https://nyu.databrary.org/slot/9825/-/asset/11635/download?inline=true) of linear motion, 2 deg/s
+    -   Sample [video](https://nyu.databrary.org/slot/11442/32561,42614/asset/38756/download?inline=true) of linear motion, 8 deg/s
 
-<!-- <video width="320" height="240" controls> -->
-<!-- <source src="https://nyu.databrary.org/slot/9825/-/asset/11635/download?inline=true" type="video/mp4"> -->
-<!-- Your browser does not support the video tag. -->
-<!-- </video> -->
-Sample [video](https://nyu.databrary.org/slot/9825/-/asset/11641/download?inline=true) of radial motion, 2 deg/s
+    -   Sample [video](https://nyu.databrary.org/slot/11442/10642,20695/asset/38752/download?inline=true) of radial motion, 8 deg/s
 
-<!-- <video width="320" height="240" controls> -->
-<!-- <source src="https://nyu.databrary.org/slot/9825/-/asset/11641/download?inline=true" type="video/mp4"> -->
-<!-- Your browser does not support the video tag. -->
-<!-- </video> -->
 -   Hypothesis: Infants should show larger amplitude EEG to linear motion.
 
 Write-up
