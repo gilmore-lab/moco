@@ -1,23 +1,23 @@
 plan-of-work
 ================
 A. Pandos & R. Gilmore
-2017-10-03 14:25:36
+2017-10-04 12:42:18
 
 Purpose
 -------
 
 1.  Plan work for Infant MOCO poster for [ICIS 2018](https://infantstudies.org/congress-2018/) (due 12/1/2017).
+    -   Poster Submission
+        -   Include an abstract (max 3500 characters – 500 words)
+        -   Prepare an abstract title (max 130 character limit)
 
--   Poster Submission
-    -   Include an abstract (max 3500 characters – 500 words)
-    -   Prepare an abstract title (max 130 character limit)
-
-1.  Plan work for Infant MOCO manuscript for submission late 2017.
+2.  Plan work for Infant MOCO manuscript for submission late 2017.
 
 Gathering
 ---------
 
 -   Get data from Box
+    -   Currently 18 Participants on Box, there should be 24
 
 Cleaning & export
 -----------------
@@ -31,7 +31,7 @@ Cleaning & export
 -   Remove identifiers
 -   Save de-identified data
 -   Upload de-identified data to GitHub
-    -   Make sure data are in format similar to [GTA 2016 on GitHub](https://github.com/gilmore-lab/gilmore-thomas-fesi-2015), see especially the README [here](https://github.com/gilmore-lab/gilmore-thomas-fesi-2015/tree/master/csv)
+    -   Make sure data are in format similar to [GTF 2016 on GitHub](https://github.com/gilmore-lab/gilmore-thomas-fesi-2015), see especially the README [here](https://github.com/gilmore-lab/gilmore-thomas-fesi-2015/tree/master/csv)
 
 Visualization
 -------------
@@ -62,9 +62,10 @@ Analysis
 Write-up
 --------
 
--   Confirm GTA 2016 references are in PaperPile
-    -   Enter missing into PaperPile
-    -   Copy refs to [infant-moco-refs.md](infant-moco-refs.md)
+-   Confirm GTF 2016 references are in PaperPile
+    -   Enter missing into PaperPile [(**Completed**)](https://paperpile.com/app/label/96331605-5b62-0cd2-a201-73b1c6dd5a96)
+    -   Copy refs to [infant-moco-refs.md](https://github.com/gilmore-lab/moco/blob/master/infant-moco-refs.md) (**Completed**)
+        -   There is a reference from GTF2016 that is listed twice (\#56 and \#77)
 -   Sample displays are on Databrary: <https://nyu.databrary.org/volume/75>
 -   Draft methods section can be found [here](moco-inf-2pat-lamrad-manuscript2016.md).
 
