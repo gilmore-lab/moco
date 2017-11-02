@@ -37,17 +37,19 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Visualization
 
-- Summary of participant characteristics
-    - Sex, age range, etc.
-- Individual-level
-    - T2Circ (like Gilmore, Thomas & Fesi, 2016; Figure 3)
-    - Map of all electrodes (like Gilmore, Thomas & Fesi, 2016; Figure 4) for 1F1, 2F1, 3F1, 4F1
-    - Plots of channels that meet threshold like (Figures 5 & 6)
-    - N.B. -- The GTF 2016 paper had 3 speeds and 3 patterns, so our code will have to be changed for 2 speeds and 2 patterns.
-- Group-level
-    - T2Circ (like Gilmore, Thomas & Fesi, 2016; Figure 3)
-    - Map of all electrodes (like Gilmore, Thomas & Fesi, 2016; Figure 4) for 1F1, 2F1, 3F1, 4F1
-    - Plots of channels that meet threshold like (Figures 5 & 6)
+-   Summary of participant characteristics
+    -   Sex, age range, etc.
+-   Look at plots and graphs in [Gilmore, Thomas & Fesi, 2016](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0157911)
+-   Individual-level 
+    -   T2Circ (like Gilmore, Thomas & Fesi, 2016; [Figure 3](http://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0157911.g003))
+    -   Map of all electrodes (like Gilmore, Thomas & Fesi, 2016; [Figure 4](http://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0157911.g004)) for 1F1, 2F1, 3F1, 4F1
+    -   Plots of channels that meet threshold (like Gilmore, Thomas & Fesi, 2016; [Figure 5](http://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0157911.g005) & [Figure 6](http://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0157911.g006))
+    -   N.B. -- The GTF 2016 paper had 3 speeds and 3 patterns, so our code will have to be changed for 2 speeds and 2 patterns.
+-   Group-level
+    -   T2Circ (like Gilmore, Thomas & Fesi, 2016; [Figure 3](http://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0157911.g003))
+    -   Map of all electrodes (like Gilmore, Thomas & Fesi, 2016; [Figure 4](http://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0157911.g004)) for 1F1, 2F1, 3F1, 4F1
+    -   Plots of channels that meet threshold like (like Gilmore, Thomas & Fesi, 2016; [Figure 5](http://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0157911.g005) & [Figure 6](http://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0157911.g006))
+
 
 ## Analysis
 
